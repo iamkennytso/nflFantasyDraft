@@ -1,3 +1,8 @@
+This project was created as a learing project for react hooks.
+Our fantasy football league likes to trade draft picks before the actual draft, and there was no application that supported this.
+Also, the sticker set that came with them were often incomplete. 
+These were the problems this app was created to fix.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
