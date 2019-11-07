@@ -1,0 +1,39 @@
+.Setup {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  &-Teams {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lavenderblush;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: 90%;
+    width: 45%;
+    &-Team {
+      width: 90%;
+    }
+  }
+  &-Options {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightcyan;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: 90%;
+    width: 45%;
+    &-Option {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+}

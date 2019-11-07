@@ -1,0 +1,71 @@
+.DraftOrder {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &-Paper {
+    width: 96%;
+  }
+  &-Bottom {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .teamNo {
+    &0 {
+      background-color: lightblue
+    }
+    &1 {
+      background-color: lightcoral
+    }
+    &2 {
+      background-color: lightcyan
+    }
+    &3 {
+      background-color: lightgoldenrodyellow
+    }
+    &4 {
+      background-color: lightgreen
+    }
+    &5 {
+      background-color: lightpink
+    }
+    &6 {
+      background-color: lightsalmon
+    }
+    &7 {
+      background-color: lightseagreen
+    }
+    &8 {
+      background-color: lightskyblue
+    }
+    &9 {
+      background-color: lightsteelblue
+    }
+    &10 {
+      background-color: cornflowerblue
+    }
+    &11 {
+      background-color: darkolivegreen
+    }
+    &12 {
+      background-color: forestgreen
+    }
+    &13 {
+      background-color: greenyellow
+    }
+  }
+}
+
+.standardRound {
+  &-false{
+    color: red;
+  }
+}
